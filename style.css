@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  * {
+    font-family: 'Fira Code', monospace;
+    /* cursor: none; */
+    scroll-behavior: smooth;
+    caret-color: white;
+    font-size: 18px;
+  }
+  
+  .terminal {
+    background-color: #282c34;
+    color: white;
+    display: flex;
+    padding: 10px;
+    width: 90%;
+    flex-direction: column;
+  }
+  
+  .output {
+    white-space: pre-wrap;
+  }
+  
+  .input-line {
+    width: 90%;
+  }
+  
+  
+  .input-command {
+    background-color: #282c34;
+    color: white;
+    border: none;
+    outline: none;
+    width: 90%;
+  }
+  
+  .input-quiz {
+    background-color: #282c34;
+    color: white;
+    border: none;
+    outline: none;
+    width: 90%;
+  }
+  
+  
+  .green {
+    color: #39ff14;
+  }
+  
+  
+  span {
+    color: #39ff14;
+    font-weight: 800;
+    text-shadow: 0px 0px 3px #189f00;
+  }
